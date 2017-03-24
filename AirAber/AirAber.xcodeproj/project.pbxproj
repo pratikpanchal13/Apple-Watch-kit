@@ -28,6 +28,7 @@
 		A9FD2ECB1E85039900C7F779 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95D13C61E84E90700861D24 /* Interface.storyboard */; };
 		A9FD2ECD1E851BB700C7F779 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */; };
 		A9FD2ECF1E851CED00C7F779 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ECE1E851CED00C7F779 /* FlightRowController.swift */; };
+		A9FD2ED11E85213700C7F779 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 		A9FD2EC91E84FC7900C7F779 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		A9FD2ECE1E851CED00C7F779 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				A95D13DB1E84E90700861D24 /* Info.plist */,
 				A9FD2EC91E84FC7900C7F779 /* FlightInterfaceController.swift */,
 				A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */,
+				A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FD2ED11E85213700C7F779 /* CheckInInterfaceController.swift in Sources */,
 				A95D13D81E84E90700861D24 /* ExtensionDelegate.swift in Sources */,
 				A9FD2ECA1E84FC7900C7F779 /* FlightInterfaceController.swift in Sources */,
 				A9FD2ECD1E851BB700C7F779 /* ScheduleInterfaceController.swift in Sources */,

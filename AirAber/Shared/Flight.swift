@@ -15,11 +15,14 @@ class Flight {
   let number: String
   let boardsAt: String
   fileprivate let delayed: String
+    
+    
   var onSchedule: Bool {
     get {
       return (delayed == "no")
     }
   }
+    
   let gate: String
   let seat: String
   var route: String {
@@ -27,6 +30,7 @@ class Flight {
       return "\(origin) to \(destination)"
     }
   }
+    
   var shortNumber: String {
     get {
       return number.substring(from: number.characters.index(number.startIndex, offsetBy: 2))
