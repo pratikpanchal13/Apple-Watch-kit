@@ -67,7 +67,8 @@ class ActivityRingInterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-     
+        self.countButton.setTitle("\(self.count)")
+        self.lblNumber.setText("\(self.count)")
         
         let duration = 0.35
         
