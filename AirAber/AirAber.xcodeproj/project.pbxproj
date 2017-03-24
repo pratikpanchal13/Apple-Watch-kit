@@ -29,6 +29,8 @@
 		A9FD2ECD1E851BB700C7F779 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */; };
 		A9FD2ECF1E851CED00C7F779 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ECE1E851CED00C7F779 /* FlightRowController.swift */; };
 		A9FD2ED11E85213700C7F779 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */; };
+		A9FD2ED51E85401B00C7F779 /* ActivityRingInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ED41E85401B00C7F779 /* ActivityRingInterfaceController.swift */; };
+		A9FD2ED71E85522B00C7F779 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FD2ED61E85522B00C7F779 /* Counter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,8 @@
 		A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		A9FD2ECE1E851CED00C7F779 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 		A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
+		A9FD2ED41E85401B00C7F779 /* ActivityRingInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityRingInterfaceController.swift; sourceTree = "<group>"; };
+		A9FD2ED61E85522B00C7F779 /* Counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,7 @@
 		A95D13D41E84E90700861D24 /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A9FD2ED61E85522B00C7F779 /* Counter.swift */,
 				A95D13D71E84E90700861D24 /* ExtensionDelegate.swift */,
 				A9FD2ECE1E851CED00C7F779 /* FlightRowController.swift */,
 				A95D13D91E84E90700861D24 /* Assets.xcassets */,
@@ -198,6 +203,7 @@
 				A9FD2EC91E84FC7900C7F779 /* FlightInterfaceController.swift */,
 				A9FD2ECC1E851BB700C7F779 /* ScheduleInterfaceController.swift */,
 				A9FD2ED01E85213700C7F779 /* CheckInInterfaceController.swift */,
+				A9FD2ED41E85401B00C7F779 /* ActivityRingInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -353,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FD2ED71E85522B00C7F779 /* Counter.swift in Sources */,
 				A9FD2ED11E85213700C7F779 /* CheckInInterfaceController.swift in Sources */,
 				A95D13D81E84E90700861D24 /* ExtensionDelegate.swift in Sources */,
+				A9FD2ED51E85401B00C7F779 /* ActivityRingInterfaceController.swift in Sources */,
 				A9FD2ECA1E84FC7900C7F779 /* FlightInterfaceController.swift in Sources */,
 				A9FD2ECD1E851BB700C7F779 /* ScheduleInterfaceController.swift in Sources */,
 				A9FD2ECF1E851CED00C7F779 /* FlightRowController.swift in Sources */,

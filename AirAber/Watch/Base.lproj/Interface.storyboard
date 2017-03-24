@@ -9,6 +9,99 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
     <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="OAU-6Q-Jvn">
+            <objects>
+                <controller id="PkW-9h-dbt">
+                    <items>
+                        <group width="136" height="130" alignment="left" layout="vertical" spacing="20" id="afX-PY-sZ1">
+                            <items>
+                                <table alignment="left" id="yqK-Ww-Kxm">
+                                    <items>
+                                        <tableRow id="86Y-pa-GJa">
+                                            <group key="rootItem" width="1" height="0.0" alignment="left" id="4pA-B0-zvp">
+                                                <items>
+                                                    <separator height="1" heightAdjustment="-8" alignment="right" verticalAlignment="center" id="FdT-IU-8bm">
+                                                        <color key="color" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </separator>
+                                                    <separator height="1" heightAdjustment="-8" alignment="left" verticalAlignment="center" id="jb5-va-PbW">
+                                                        <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </separator>
+                                                    <group alignment="left" layout="vertical" id="H5o-lu-iYe">
+                                                        <items>
+                                                            <group width="108" alignment="left" layout="vertical" id="1ZZ-6g-Hge">
+                                                                <items>
+                                                                    <group width="115" alignment="left" spacing="6" id="eWN-EZ-rBg">
+                                                                        <items>
+                                                                            <label alignment="left" verticalAlignment="center" text="Man" id="7KL-ax-3Fn">
+                                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="17"/>
+                                                                            </label>
+                                                                            <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="erM-mc-K01"/>
+                                                                            <label alignment="left" verticalAlignment="center" text="SFO" textAlignment="left" id="Bm6-tR-w4E">
+                                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                                                            </label>
+                                                                        </items>
+                                                                        <edgeInsets key="margins" left="4" right="0.0" top="4" bottom="0.0"/>
+                                                                    </group>
+                                                                    <group width="121" alignment="left" id="3pB-4x-3RO">
+                                                                        <items>
+                                                                            <label alignment="left" text="AA123" id="XqG-lW-4fx">
+                                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                                            </label>
+                                                                            <label alignment="right" text="On time" textAlignment="right" id="nxB-EN-vLx">
+                                                                                <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                                                            </label>
+                                                                        </items>
+                                                                        <edgeInsets key="margins" left="4" right="0.0" top="0.0" bottom="0.0"/>
+                                                                    </group>
+                                                                </items>
+                                                            </group>
+                                                            <separator width="120" alignment="center" verticalAlignment="center" id="Pat-ba-ezM">
+                                                                <color key="color" red="0.98039215690000003" green="0.2274509804" blue="0.70667860240000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </separator>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </tableRow>
+                                    </items>
+                                </table>
+                                <group width="136" height="53" alignment="left" spacing="6" id="PAf-J9-uER">
+                                    <items>
+                                        <button alignment="left" id="F4d-Oc-CG2">
+                                            <group key="contentGroup" width="40" height="40" alignment="left" layout="vertical" radius="20" id="0tA-YW-Jmz">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="P" id="QwE-Tw-UP3"/>
+                                                </items>
+                                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                            </group>
+                                        </button>
+                                        <button alignment="left" id="G2T-SO-5g8">
+                                            <group key="contentGroup" width="40" height="40" alignment="left" radius="20" id="Gzb-n2-3Xk">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="N" id="33p-Vf-1Lp"/>
+                                                </items>
+                                                <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </group>
+                                        </button>
+                                        <button alignment="left" id="ywI-Qp-nVw">
+                                            <group key="contentGroup" width="40" height="40" alignment="left" radius="20" id="Kt0-ei-IFx" userLabel="2">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="P" id="odB-br-rIo"/>
+                                                </items>
+                                                <color key="backgroundColor" red="0.98039215686274506" green="0.5" blue="0.42552753523284309" alpha="1" colorSpace="calibratedRGB"/>
+                                            </group>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="95" y="123"/>
+        </scene>
         <!--Flight-->
         <scene sceneID="NKx-6N-tnS">
             <objects>
@@ -63,7 +156,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="151" y="128"/>
+            <point key="canvasLocation" x="332" y="358"/>
         </scene>
         <!--CheckIn-->
         <scene sceneID="EWk-s7-tNR">
@@ -104,11 +197,36 @@
                     <connections>
                         <outlet property="backgroundGroup" destination="OSp-tf-xOc" id="pWD-A5-BQl"/>
                         <outlet property="destinationLabel" destination="ezh-PU-W0W" id="iKs-uV-4yA"/>
+                        <outlet property="lblCheckIn" destination="g0J-sj-LfB" id="0wc-Nd-vNB"/>
                         <outlet property="originLabel" destination="sRx-YX-Luy" id="eGL-nK-1wm"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="368" y="123"/>
+            <point key="canvasLocation" x="326" y="104"/>
+        </scene>
+        <!--Loader-->
+        <scene sceneID="bQ4-qG-nbd">
+            <objects>
+                <controller identifier="Loader" id="Ehr-1f-Fzf" customClass="ActivityRingInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <button alignment="center" verticalAlignment="center" id="eOf-BR-6el">
+                            <group key="contentGroup" width="120" height="120" alignment="left" radius="60" id="cQM-df-cPG">
+                                <items>
+                                    <label alignment="center" verticalAlignment="center" text="1" id="Wzt-5N-rR9">
+                                        <fontDescription key="font" type="boldSystem" pointSize="100"/>
+                                    </label>
+                                </items>
+                                <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </group>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="countButton" destination="eOf-BR-6el" id="nh1-eF-znl"/>
+                        <outlet property="lblNumber" destination="Wzt-5N-rR9" id="twZ-i7-iYW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="635" y="52"/>
         </scene>
         <!--Air Aber-->
         <scene sceneID="OoD-f2-7gc">
@@ -123,7 +241,7 @@
                                             <separator width="1" widthAdjustment="4" height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="AKe-yJ-exf">
                                                 <color key="color" red="0.98039215686274506" green="0.066666666666666666" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                                             </separator>
-                                            <group width="109" alignment="left" layout="vertical" spacing="0.0" id="yv8-xF-HXD">
+                                            <group width="109" alignment="left" layout="vertical" spacing="4" id="yv8-xF-HXD">
                                                 <items>
                                                     <group width="109" height="32" alignment="left" id="M41-ZW-IRw">
                                                         <items>
@@ -162,6 +280,43 @@
                                         <outlet property="separator" destination="AKe-yJ-exf" id="jin-aU-48n"/>
                                         <outlet property="statusLabel" destination="bKO-dn-Jse" id="6Gx-G2-ek1"/>
                                     </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <table alignment="left" id="TSg-a9-AxE">
+                            <items>
+                                <tableRow id="ILg-Zb-lfV">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" id="Id5-Rc-SBO">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="2Sa-6f-4Qc">
+                                                <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <group width="109" alignment="left" layout="vertical" id="emx-68-iqI">
+                                                <items>
+                                                    <group width="109" height="32" alignment="left" spacing="0.0" id="qzG-4k-Omk">
+                                                        <items>
+                                                            <label alignment="left" verticalAlignment="center" text="Man" id="DZr-ga-fsz">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                            <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="ucS-Ge-9wh"/>
+                                                            <label alignment="right" verticalAlignment="center" text="SFO" id="pPp-sB-PQd">
+                                                                <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                            </label>
+                                                        </items>
+                                                        <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                                                    </group>
+                                                    <group width="1" height="1" alignment="left" id="e2R-3f-d1d">
+                                                        <items>
+                                                            <label alignment="left" text="AA123" id="BSf-tI-1LD"/>
+                                                            <label alignment="left" text="On time" id="wpL-EG-C5o">
+                                                                <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </label>
+                                                        </items>
+                                                    </group>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
                                 </tableRow>
                             </items>
                         </table>

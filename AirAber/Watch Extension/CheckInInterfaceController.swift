@@ -17,6 +17,7 @@ class CheckInInterfaceController: WKInterfaceController {
     @IBOutlet var originLabel: WKInterfaceLabel!
     @IBOutlet var destinationLabel: WKInterfaceLabel!
     
+    @IBOutlet var lblCheckIn: WKInterfaceLabel!
     
     var flight: Flight? {
         didSet {
@@ -31,6 +32,7 @@ class CheckInInterfaceController: WKInterfaceController {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         if let flight = context as? Flight { self.flight = flight }
+        
     }
     
     
@@ -53,8 +55,13 @@ class CheckInInterfaceController: WKInterfaceController {
             // your code here
             
             self.flight?.checkedIn = true
+            
+
+            
             self.dismiss()
         }
+        
+        
         
         
 //        dispatch_after(delay, DispatchQueue.main) { () -> Void in
@@ -82,4 +89,11 @@ class CheckInInterfaceController: WKInterfaceController {
     }
     */
     
+    
+  
+
+    
 }
+
+
+
