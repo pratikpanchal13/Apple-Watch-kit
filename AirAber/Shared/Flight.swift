@@ -14,6 +14,7 @@ class Flight {
   let destination: String
   let number: String
   let boardsAt: String
+    
   fileprivate let delayed: String
     
     
